@@ -89,3 +89,39 @@ KakaoTalk -
 
 ## SEO(검색 엔진 최적화, Search Engine Optimization)
 - 구글이나 네이버 등에 자신의 웹 사이트/페이지를 노출할 수 있도록 정보를 최적화하는 작업을 의미한다.
+
+## Google Fonts
+
+페이지에서 사용할 여러가지 폰트들을 제공한다.
+
+> 폰트 라이선스를 꼭 확인해야 합니다!
+[Google Fonts](https://fonts.google.com/)에서 고른 폰트 파일을 가져옵니다.
+
+```html
+<link rel="preconnect" href="https://fonts.gstatic.com" />
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet" />
+```
+
+페이지에 폰트를 적용(CSS 상속)합니다.
+
+```css
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+```
+
+## Google Material Icons
+
+[구글에서 제공하는 머터리얼 아이콘](https://material.io/resources/icons/?style=baseline)을 무료로 사용할 수 있습니다.
+
+[Getting started for web](https://material.io/develop/web/getting-started)
+
+```html
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+```
+
+다음과 같이 사용할 수 있습니다.
+
+```html
+<div class="material-icons">upload</div>
+```
